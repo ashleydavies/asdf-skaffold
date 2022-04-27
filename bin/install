@@ -30,7 +30,7 @@ get_platform() {
 }
 
 get_arch() {
-  [ "x86_64" = "$(uname -m)" ] && echo "amd64" || echo "386"
+  [ "x86_64" = "$(uname -m)" ] && echo "amd64" || echo "arm64"
 }
 
 get_download_url() {
